@@ -1,0 +1,200 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.our-primary {
+  color: orangered !important;
+}
+
+button.our-btn-primary {
+  background-color: orangered !important;
+  border: 1px solid orangered;
+  outline: none !important;
+}
+
+.our-bg-primary {
+  background-color: orangered;
+}
+
+button.our-btn-primary:hover {
+  border: 1px solid orangered;
+}
+
+nav {
+  transition: all 0.5s ease-in;
+}
+
+nav.fixed-top.scrolled a.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: orangered !important;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+button.navbar-toggler {
+  outline: none;
+}
+
+.navbar-toggler {
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.menu-navbar {
+  font-size: medium;
+}
+
+a.nav-link {
+  font-weight: 900;
+  transition: all 0.3s ease-in;
+}
+
+a.nav-link:hover,
+nav.fixed-top.scrolled a.nav-link:hover {
+  color: orangered !important;
+}
+
+a.active,
+nav.fixed-top.scrolled a.active {
+  color: orangered !important;
+  text-decoration: underline;
+}
+
+.caption-brand {
+  color: orangered !important;
+  font-weight: 600 !important;
+}
+
+div.carousel-item div.carousel-caption div a.btn-primary {
+  background-color: rgb(0, 0, 0, 0.3) !important;
+  border: 2px solid orangered !important;
+  transition: all 0.5s ease-in;
+}
+
+div.carousel-item div.carousel-caption div a.btn-primary:hover {
+  background-color: orangered !important;
+  border: 2px solid orangered !important;
+}
+
+h2.divider {
+  color: orangered;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+  padding-top: 20px;
+}
+
+h2.divider-light {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.45);
+  padding-top: 20px;
+}
+
+.divider-custom,
+.divider-custom-light {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: orangered;
+  border-radius: 1rem;
+  border-color: orangered !important;
+}
+
+.divider-custom-light .divider-custom-line-light {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  border-color: #fff !important;
+}
+.divider-custom .divider-custom-line:first-child,
+.divider-custom-light .divider-custom-line-light:first-child {
+  margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line:last-child,
+.divider-custom-light .divider-custom-line-light:last-child {
+  margin-left: 1rem;
+}
+
+.divider-custom .divider-custom-icon {
+  color: orangered !important;
+  font-size: 2rem;
+}
+
+.divider-custom-light .divider-custom-icon-light {
+  color: #fff !important;
+  font-size: 2rem;
+}
+
+img.card-img {
+  transition: all 0.2s ease-in;
+}
+
+img.card-img:hover {
+  transform: scale(1.05);
+}
+
+.form-control {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px orangered solid;
+  height: 50px;
+  outline: none !important;
+  transition: all 0.3s ease-in;
+}
+
+textarea.form-control {
+  height: 150px;
+}
+
+.form-control:focus {
+  outline: none !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 1);
+}
+
+.form-control::placeholder,
+.form-control {
+  font-size: 1.5rem;
+}
+
+footer {
+  color: #fff !important;
+}
+
+footer a {
+  color: #fff !important;
+}
+
+a.btn-social-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+@media only screen and (min-width: 769px) {
+  nav {
+    height: 100px;
+  }
+
+  nav.fixed-top.scrolled {
+    height: 80px;
+  }
+}
